@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import ChartContainer from "./frontEnd/ChartContainer";
 
 const AppContainer = () => {
   return (
-    <div>AppContainer</div>
-  )
-}
+    <>
+      <ChartContainer />
+    </>
+  );
+};
 
-export default AppContainer
+export default AppContainer;
